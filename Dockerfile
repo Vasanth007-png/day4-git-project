@@ -4,4 +4,4 @@ WORKDIR /app
 
 COPY target/*.jar app.jar
 
-CMD ["java", "-cp", "app.jar", "com.devops.App"]
+CMD ["java", "-cp", "app.jar", "com.devops.Calculator"]
